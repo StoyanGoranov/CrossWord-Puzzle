@@ -1,0 +1,92 @@
+
+@media screen and (max-height:400px){
+    .build-container{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width:920px){
+    .input-container{
+        margin-top:0;
+    }
+    .controlButtons{
+        width:80%;
+    }
+    .letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:20px !important;
+        height:30px;
+    } 
+    .build-container{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:720px){
+    body{
+        font-stretch: ultra-condensed;
+        font-size: 0.7rem !important;
+    }
+    .input-container{
+        margin-top:0;
+    }
+    .letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:14px !important;
+        height:25px;
+    }   
+    .build-container{
+        margin-top:5%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:641px){
+    body{
+        font-stretch: ultra-condensed;
+        font-size: 0.7rem !important;
+    }
+
+    .letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:14px !important;
+        height:20px;
+    }
+    .input-container{
+        width:auto;
+        justify-content: center;
+        margin:0;
+    }
+    .controlButtons{
+        width:70%;
+    }
+    .build-container{
+        width: 90%;
+        
+    }
+}
+
+@media screen and (max-width:380px){
+    body{
+        /* overflow: hidden; */
+        font-stretch: ultra-condensed;
+        font-size: 0.7rem !important;
+    }
+    .input-container{
+        width:auto;
+        justify-content: center;
+        margin:0;
+    }
+    .controlButtons{
+        width:90%;
+    }
+    .build-container{
+        width: 100%;
+    }
+}

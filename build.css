@@ -1,0 +1,43 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+#table{
+    display: flex;
+    background-color:#EBEA7A;
+    padding:7px;
+    width:100%;
+    border-radius:2%;
+    flex-wrap: wrap;
+    border: 1.5px solid black;/* transparent; background-color: white;*/
+}
+
+div.row {
+    margin:auto;
+    width: 100%;
+    display: inline-flex;
+}
+
+.letter {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width:20px !important;
+    height:30px;
+}
+
+.build-container{
+    display: flex;
+    align-content: center;
+    width:50%;
+    /* margin:auto; */
+    padding:30px;
+    /* border-radius:2%;
+    border: 1.5px solid transparent;
+    background-image: url(res/ukrainian_styles_embroidery_patterns_vector_set_578593.jpg);
+    background-size:fit-content;
+    background-position:center; */
+}
